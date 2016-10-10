@@ -1,0 +1,22 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Contacts</h1>
+
+<table>
+  <thead>
+    <tr>
+    <div>
+    <%= render 'form', contact: @contact %>
+    
+    </div></tr>
+  </thead>
+
+  <tbody>
+    
+  </tbody>
+</table>
+
+<br>
+
+
+<%= link_to 'New Contact', new_contact_path %>
